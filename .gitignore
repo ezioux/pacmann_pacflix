@@ -1,2 +1,28 @@
-venv
-__pycache__
+# Ignore virtual environment directories
+venv/
+# Ignore Python bytecode files
+__pycache__/
+# Ignore any other specific files or directories you want to exclude
+conda-meta/
+DLLs/
+include/
+Lib/
+Library/
+libs/
+Scripts/
+share/
+Tools/
+
+
+# Ignore virtual environment directories
+my_env/
+# Ignore Python bytecode files
+*.pyc
+*.dll
+*.pdb
+*.nonadmin
+
+# Ignore any other specific files or directories you want to exclude
+#secret_config.ini
+#logs/
+
